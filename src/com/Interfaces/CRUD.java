@@ -1,8 +1,8 @@
 package com.Interfaces;
 
-public interface CRUD <T>{
-    public boolean create(T object);
-    public T read(Integer ID);
-    public boolean update(Integer ID, T newobject);
+public interface CRUD{
+    public void create(Object object);
+    public Object read(Integer ID);
+    public boolean update(Integer ID, Object newobject);
     public boolean delete(Integer ID);
 }
